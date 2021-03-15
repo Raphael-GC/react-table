@@ -2,6 +2,9 @@
 
 Esse projeto visa implementar funcionalidades, como adição e remoção de linhas e colunas, à tabela usada como base nesse [artigo](https://dirask.com/posts/How-to-create-customized-dynamic-table-in-React-pqa53p).
 
+![image](https://github.com/Raphael-GC/react-table/blob/master/public/table.PNG)
+
+
 ## :pushpin: Motivação
 
 Este é o primeiro de uma série de projetos ou funcionalidades simples e práticos que vejo em diversos sites de tutoriais e sempre pensava em aplicar e nunca saiam do campo da ideia. Até ontem!😉

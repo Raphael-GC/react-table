@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+import React from 'react';
+import Table from './Table.js';
+
+//function App() {
+//  return (
+//    <div className="App">
+//      <header className="App-header">
+//        <img src={logo} className="App-logo" alt="logo" />
+//      </header>
+//    </div>
+//  );
+//}
+
+
 
 function App() {
+  const columns = [
+    { path: "id",   name: "ID" },
+    { path: "name", name: "Name" },
+    { path: "age",  name: "Age" },
+    { path: "favFruit",  name: "Favourite Fruit" },
+  ];
+  
+  const data = [
+    { id: 1, name: 'Kate',  age: 25, favFruit: '🍏' },
+    { id: 2, name: 'Tom',   age: 23, favFruit: '🍌' },
+    { id: 3, name: 'Ann',   age: 26, favFruit: '🍊' },
+    { id: 4, name: 'Jack',  age: 21, favFruit: '🍒' }
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div>
+      <Table id="id" columns={columns} data={data} />
     </div>
+
   );
 }
 

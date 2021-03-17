@@ -8,13 +8,13 @@ const tableStyle = {
     width: '100%'
 }
 
-const tdStyle = {
+const tdStyle = { //Dados 
   	border: '1px solid #85C1E9',
     background: 'white',
     padding: '5px'
 };
 
-const thStyle = {
+const thStyle = { //Cabeçalho
   	border: '1px solid #3498DB',
     background: '#3498DB',
   	color: 'white',

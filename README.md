@@ -31,7 +31,7 @@ Este é o primeiro de uma série de projetos ou funcionalidades simples e práti
 
 `npm start`
 
-## :pencil: Author
-
-- <a href="https://www.linkedin.com/in/raphael-gc/" target="_blank">LinkedIn</a>
+<p align="center">
+  Grow like a 🌳!  
+</p>
 
